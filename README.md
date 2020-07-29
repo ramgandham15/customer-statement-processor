@@ -27,3 +27,5 @@ You may also package the application in the form of a jar and then run the jar f
 
 mvn clean package
 java -jar target/customer-statement-processor-0.0.1-SNAPSHOT.jar
+
+you can also access the test data and expected out from the testdata folder !
