@@ -4,14 +4,14 @@ public class Records {
 	private Long reference;
 	private String accountNumber;
 	private String description;
-	private String startBalance;
-	private String mutation;
+	private Double startBalance;
+	private Double mutation;
 	private Double endBalance;
 
 	public Records() {
 	}
 
-	public Records(Long reference, String accountNumber, String description, String startBalance, String mutation,
+	public Records(Long reference, String accountNumber, String description, Double startBalance, Double mutation,
 			Double endBalance) {
 		super();
 		this.reference = reference;
@@ -46,19 +46,19 @@ public class Records {
 		this.description = description;
 	}
 
-	public String getStartBalance() {
+	public Double getStartBalance() {
 		return startBalance;
 	}
 
-	public void setStartBalance(String startBalance) {
+	public void setStartBalance(Double startBalance) {
 		this.startBalance = startBalance;
 	}
 
-	public String getMutation() {
+	public Double getMutation() {
 		return mutation;
 	}
 
-	public void setMutation(String mutation) {
+	public void setMutation(Double mutation) {
 		this.mutation = mutation;
 	}
 

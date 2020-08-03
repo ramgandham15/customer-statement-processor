@@ -5,4 +5,5 @@ import com.rabo.statement.constants.ResponseCode;
 public interface ServiceResponse {
 
 	public ResponseCode getServiceResponse();
+	public StatementResponse getStatementResponse();
 }

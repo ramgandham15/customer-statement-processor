@@ -36,15 +36,15 @@ public class StatementProcessServiceImplTest {
 		records1.setAccountNumber("NL91RABO0315273637");
 		records1.setDescription("description");
 		records1.setEndBalance(-20.23);
-		records1.setStartBalance("21.6");
-		records1.setMutation("-41.83");
+		records1.setStartBalance(21.6);
+		records1.setMutation(-41.83);
 		Records records2 = new Records();
 		records2.setReference(Long.valueOf("194261"));
 		records2.setAccountNumber("NL91RABO0315273637");
 		records2.setDescription("description");
 		records2.setEndBalance(-20.23);
-		records2.setStartBalance("21.6");
-		records2.setMutation("-41.83");
+		records2.setStartBalance(21.6);
+		records2.setMutation(-41.83);
 		records.add(records1);
 		records.add(records2);
 
@@ -53,15 +53,15 @@ public class StatementProcessServiceImplTest {
 		records3.setAccountNumber("NL91RABO0315273637");
 		records3.setDescription("description");
 		records3.setEndBalance(-20.23);
-		records3.setStartBalance("21.6");
-		records3.setMutation("-41.83");
+		records3.setStartBalance(21.6);
+		records3.setMutation(-41.83);
 		Records records4 = new Records();
 		records4.setReference(Long.valueOf("194263"));
 		records4.setAccountNumber("NL91RABO0315273637");
 		records4.setDescription("description");
 		records4.setEndBalance(-20.23);
-		records4.setStartBalance("21.6");
-		records4.setMutation("-41.83");
+		records4.setStartBalance(21.6);
+		records4.setMutation(-41.83);
 		uniqueRecords.add(records3);
 		uniqueRecords.add(records4);
 		
@@ -70,15 +70,15 @@ public class StatementProcessServiceImplTest {
 		records5.setAccountNumber("NL91RABO0315273637");
 		records5.setDescription("description");
 		records5.setEndBalance(-20.23);
-		records5.setStartBalance("21.6");
-		records5.setMutation("-41.83");
+		records5.setStartBalance(21.6);
+		records5.setMutation(-41.83);
 		Records records6 = new Records();
 		records6.setReference(Long.valueOf("194263"));
 		records6.setAccountNumber("NL91RABO0315273637");
 		records6.setDescription("description");
 		records6.setEndBalance(-20.23);
-		records6.setStartBalance("21.6");
-		records6.setMutation("-42.83");
+		records6.setStartBalance(21.6);
+		records6.setMutation(-42.83);
 		incorrectEndbalRecords.add(records5);
 		incorrectEndbalRecords.add(records6);
 		
